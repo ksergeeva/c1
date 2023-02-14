@@ -12,7 +12,7 @@ public class Client {
                              new BufferedWriter(
                                      new OutputStreamWriter(client.getOutputStream())), true)) {
 
-                    out.println("Бизнес");
+                    out.println("бизнес");
                     String s;
                     for (; (s = in.readLine()) != null; ) {
                         System.out.println(s);
